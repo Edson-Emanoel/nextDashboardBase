@@ -4,7 +4,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "../ui/avatar";
 
 export function Sales() {
   return (
-      <Card className="w-[49.2%] min-w-[350px] max-h-[31.25rem] md:1/2 bg-slate-900 text-white border-none">
+      <Card className="w-[100%] min-w-[300px] bg-slate-900 text-white border-none flex flex-col gap-10 sm:w-[100%] sm:h-[400px] md:w-[100%] md:h-[400px] lg:w-[80%] lg:h-[40%]">
       <CardHeader>
             <div className="flex items-center justify-between">
                   <CardTitle className="text-lg sm:text-xl text-gray-300">
@@ -51,6 +51,6 @@ export function Sales() {
                   </div>
             </article>
       </CardContent>
-    </Card>
+      </Card>
   )
 }

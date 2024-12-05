@@ -30,8 +30,8 @@ export function ChartOverview(){
 
 
       return(
-            <Card className="w-[34%] min-w-[300px] max-h-[31.25rem] bg-slate-900 text-white border-none">
-                  <CardHeader>
+            <Card className="w-[100%] min-w-[300px] bg-slate-900 text-white border-none flex flex-col gap-10 sm:w-[100%] sm:h-[400px] md:w-[100%] md:h-[400px] lg:w-[80%] lg:h-[40%]">
+                  <CardHeader className="w-[100%] h-[10%]">
                         <div className="flex items-center justify-center">
                               <CardTitle className="text-lg sm:text-xl text-gray-300">
                                     Overview de vendas
@@ -40,8 +40,8 @@ export function ChartOverview(){
                         </div>
                   </CardHeader>
                   
-                  <CardContent>
-                        <ChartContainer config={chartConfig} className="min-h-[20.25rem] max-h-[31.25rem] w-full" >
+                  <CardContent className="w-full h-[500px] sm:w-[100%] sm:h-[400px] lg:w-full lg:h-full">
+                        <ChartContainer config={chartConfig} className="h-[100%] w-full" >
                               <BarChart data={chartData}>
                                     <CartesianGrid vertical={false} />
                                     <XAxis

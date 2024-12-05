@@ -6,7 +6,7 @@ import { BadgeDollarSign, DollarSign, Percent, Users } from "lucide-react";
 export default function Home() {
   return (
     <main className="sm:ml-20 p-4">
-      <section className="grid grid-cols-2 lg:grid-cols-4 gap-4">
+      <section className="grid grid-cols-2 lg:grid-cols-4 md:grid-cols-2 gap-4">
         <Card className="bg-slate-900 text-white border-none">
           <CardHeader>
             <div className="flex items-center justify-center">
@@ -84,7 +84,7 @@ export default function Home() {
         </Card>
       </section>
       
-      <section className="mt-4 flex flex-col md:flex-row gap-4">
+      <section className="mt-4 flex flex-col sm:flex-col md:flex-row gap-4">
         <ChartOverview />
         <Sales />
       </section>
