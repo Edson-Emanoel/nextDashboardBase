@@ -14,10 +14,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="pt-br">
       <body
         className={cn(
-          "min-h-screen bg-slate-950 text-white font-sans antialiased",
+          "min-h-screen bg-slate-950 text-white font-sans antialiased lg:overflow-hidden",
         )}
       >
         <Sidebar />

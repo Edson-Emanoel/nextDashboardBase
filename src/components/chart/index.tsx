@@ -30,7 +30,7 @@ export function ChartOverview(){
 
 
       return(
-            <Card className="w-[100%] min-w-[300px] bg-slate-900 text-white border-none flex flex-col gap-10 sm:w-[100%] sm:h-[400px] md:w-[100%] md:h-[400px] lg:w-[80%] lg:h-[40%]">
+            <Card className="max-w-[40%] min-w-[280px] bg-slate-900 text-white border-none flex flex-col gap-10 sm:w-[100%] sm:h-[400px] md:w-[100%] md:h-[400px] lg:w-[80%] lg:h-[40%]">
                   <CardHeader className="w-[100%] h-[10%]">
                         <div className="flex items-center justify-center">
                               <CardTitle className="text-lg sm:text-xl text-gray-300">

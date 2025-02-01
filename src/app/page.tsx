@@ -5,7 +5,7 @@ import { BadgeDollarSign, DollarSign, Percent, Users } from "lucide-react";
 
 export default function Home() {
   return (
-    <main className="sm:ml-20 p-4">
+    <main className="sm:ml-20 p-4 mt-10">
       <section className="grid grid-cols-2 lg:grid-cols-4 md:grid-cols-2 gap-4">
         <Card className="bg-slate-900 text-white border-none">
           <CardHeader>
